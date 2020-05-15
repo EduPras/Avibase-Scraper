@@ -4,12 +4,15 @@ global urls, ids_urls
 urls = []
 ids_urls = []
 
+
+# ids got from search.txt
 ids = [ 
     '18AEC3532537ACCB',
     'FB7383856D0DB2EA',
     '272E0085D91EA44E',
     ]
 
+# These name are gonna generate id in search.txt
 title = ['arara', 'pato', 'galinha']
 
 for identification in ids:
