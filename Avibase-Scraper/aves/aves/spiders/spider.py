@@ -4,6 +4,8 @@ global urls, ids_urls
 urls = []
 ids_urls = []
 
+# These name are gonna generate id in search.txt
+title = ['arara', 'pato', 'galinha']
 
 # ids got from search.txt
 ids = [ 
@@ -11,9 +13,6 @@ ids = [
     'FB7383856D0DB2EA',
     '272E0085D91EA44E',
     ]
-
-# These name are gonna generate id in search.txt
-title = ['arara', 'pato', 'galinha']
 
 for identification in ids:
     ids_urls.append('https://avibase.bsc-eoc.org/species.jsp?lang=EN&avibaseid='+identification)
