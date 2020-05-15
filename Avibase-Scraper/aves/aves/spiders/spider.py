@@ -5,12 +5,12 @@ urls = []
 ids_urls = []
 
 ids = [ 
-    '4EB50482BEE5E52B',
-    '454B5CD5F5285B77',
-    'BE5C3C1174B2D215',
+    '18AEC3532537ACCB',
+    'FB7383856D0DB2EA',
+    '272E0085D91EA44E',
     ]
 
-title = ['oi', 'pinto', 'pika']
+title = ['arara', 'pato', 'galinha']
 
 for identification in ids:
     ids_urls.append('https://avibase.bsc-eoc.org/species.jsp?lang=EN&avibaseid='+identification)
